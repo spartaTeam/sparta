@@ -4,7 +4,7 @@ body {
     color: #000;
     font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
     /*background: #e8ebfa ;*/
-    background: url('../img/bg.png');
+    background: url('../img/bg.jpg');
 }
 
 
@@ -63,14 +63,13 @@ body {
 /* content: show picture */
 
 .content {
-    /* border: 1px solid red; */
+     /*border: 1px solid red; */
     width: 100%;
     height: 600px;
     overflow: hidden;
     display: block;
     margin: 0px;
     padding: 0px;
-    background-color:
 }
 
 .content .picture-box {
@@ -78,9 +77,6 @@ body {
     width: 100%;
     height: 100px;
     margin: 0px;
-    /*border: 5px dotted #87ce55;*/
-    /*border-radius: 35px;*/
-    /* background-color:#87ce55; */
 }
 
 
@@ -116,8 +112,8 @@ body {
     list-style-type: none;
     position: relative;
     display: block;
-    width: 70%;
-    height: 100%;
+    width: 67%;
+    height: 65%;
     margin: 0 auto;
 }
 
@@ -139,7 +135,7 @@ body {
     transition: all 1.7s ease-out .1s
 }
 
-#box img {
+#box li img {
     /*display: block;*/
     border: 0;
     margin: 0 auto;
@@ -157,6 +153,12 @@ body {
     height: 20px;
     font-weight: normal;
     font-size: 14px;
+}
+
+.like {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
 }
 
 
